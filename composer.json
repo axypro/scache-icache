@@ -1,0 +1,27 @@
+{
+    "name": "axy/scache-icache",
+    "type": "library",
+    "description": "An interface of simple cache",
+    "keywords": [
+        "Cache"
+    ],
+    "homepage": "https://github.com/axypro/scache-icache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Grigoriev",
+            "email": "go.vasac@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "axy\\scahce\\icache\\": ""
+        }
+    },
+    "archive": {
+        "exclude": ["/tests/*", "/doc/*", "/cs.sh", "/phpmd.sh", "/*.xml.dist", "/CHANGELOG.md"]
+    }
+}
